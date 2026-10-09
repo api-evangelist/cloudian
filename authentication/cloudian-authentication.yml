@@ -1,0 +1,14 @@
+generated: '2026-10-09'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://cloudian.com/blog/s3-api-actions-authentication-and-code-examples/
+sources:
+- https://cloudian.com/blog/s3-api-actions-authentication-and-code-examples/
+description: Authentication for the API is typically handled using AWS Signature Version 4 to ensure secure access and integrity of the requests.
+schemes:
+- type: other
+  name: AWS Signature Version 4
+  evidence: Authentication for the API is typically handled using AWS Signature Version 4 to ensure secure access and integrity of the requests.
+  location: header
+  header: Authorization
+docs: https://cloudian.com/blog/s3-api-actions-authentication-and-code-examples/

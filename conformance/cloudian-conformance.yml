@@ -1,0 +1,15 @@
+generated: '2026-10-09'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://cloudian.com/products/security-features/
+sources:
+- https://cloudian.com/products/security-features/
+- https://cloudian.com/guides/data-protection/data-protection-principles-7-core-principles-of-the-gdpr/
+- https://cloudian.com/guides/data-protection/gdpr-data-protection/
+- https://cloudian.com/blog/how-cloudian-certifies-compliance-with-sec-finra-and-cftc-recordkeeping-regulations/
+standards:
+- id: fapi
+  conforms: false
+  evidence: FIPS 140-3 Level 1 validation
+docs: https://cloudian.com/products/security-features/
+note: 4 extracted row(s) were dropped because their quote was not on the page.

@@ -1,23 +1,90 @@
 aid: cloudian
+
 name: Cloudian
-description: 'Cloudian is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
-url: https://raw.githubusercontent.com/api-evangelist/cloudian/refs/heads/main/apis.yml
+
+image: https://cloudian.com/wp-content/uploads/2020/02/Cloudian-featured-image.jpg
+
+description: 'Cloudian offers object storage products such as HyperStore, HyperScale AIDP, and HyperIQ for enterprises, government agencies, and service providers. Its solutions provide S3‑compatible, on‑premises and hybrid cloud storage for AI workloads, data lakes, backup, and ransomware protection. The company targets sectors including financial services, healthcare, education, and telecommunications.'
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Developer pages return a 404 page not found and the site is heavily JavaScript‑rendered, preventing machine‑readable spec discovery.
+  evidence:
+    - url: https://cloudian.com/developers/
+      status: 200
+  checked: 2026-10-09 'Cloudian provides an AI‑ready, exabyte‑scale object storage platform designed for enterprise workloads. Its software‑defined storage solution offers on‑premises security, S3 compatibility, and high performance for AI and data‑intensive applications. Founded to simplify data protection and enable modern cloud‑native architectures, Cloudian serves global customers across industries with robust, scalable storage infrastructure.'
+
+url: https://cloudian.com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-09 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-09'
+
 modified: '2026-10-09'
+
 tags:
 - Company
-apis: []
+- Storage
+- Object-Storage
+- AI
+- Enterprise
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: CLI
+  url: cli/cloudian-cli.yml
+- type: Authentication
+  url: authentication/cloudian-authentication.yml
+- type: Conformance
+  url: conformance/cloudian-conformance.yml
+- type: LLMsTxt
+  url: llms/cloudian-llms.txt
+- type: Hosts
+  url: hosts/cloudian-hosts.yml
+- type: Vendors
+  url: vendors/cloudian-vendors.yml
+- type: SDKs
+  url: packages/cloudian-packages.yml
+- type: Packages
+  url: packages/cloudian-packages.yml
+- type: TermsOfService
+  url: https://cloudian.com/disclosures/terms-of-use/
+- type: Support
+  url: https://cloudian.com/support/
+- type: Security
+  url: https://cloudian.com/solutions/security/
+- type: PrivacyPolicy
+  url: https://cloudian.com/privacy-policy-2/
+- type: Newsroom
+  url: https://cloudian.com/press/cloud-data-repatriation-survey/
+- type: Documentation
+  url: https://cloudian.com/guides/veeam/
+- type: Blog
+  url: https://cloudian.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/cloudian
+- type: DomainSecurity
+  url: security/cloudian-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/cloudian
+  url: https://cloudian.com
+
+apis: []
+x-enrichment:
+  date: '2026-10-09'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

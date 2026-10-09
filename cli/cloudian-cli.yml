@@ -1,0 +1,19 @@
+generated: '2026-10-09'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://cloudian.com/guides/object-storage/best-object-storage-tools-top-5-on-premise-solutions-in-2025/
+sources:
+- https://cloudian.com/guides/object-storage/best-object-storage-tools-top-5-on-premise-solutions-in-2025/
+- https://cloudian.com/blog/aws-cli-s3-compatible-storage/
+install:
+- method: pip
+  command: pip install awscli
+- method: script
+  command: python dc_getpip.py
+commands:
+- group: s3
+  commands:
+  - aws --profile=cloudian --endpoint-url=http://s3-region1.addomain.local s3 ls
+  - aws --profile=cloudian --endpoint-url=http://s3-region1.addomain.local s3 cp file s3://bucket
+binary: aws
+docs: https://cloudian.com/guides/object-storage/best-object-storage-tools-top-5-on-premise-solutions-in-2025/
