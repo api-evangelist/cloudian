@@ -1,0 +1,49 @@
+generated: '2026-10-13'
+method: searched
+source:
+- https://zapier.com/apps/cloudian/integrations
+- https://n8n.io/integrations/cloudian/
+- https://composio.dev/toolkits/cloudian
+- https://monid.ai/tools/cloudian
+checked:
+- https://aws.amazon.com/marketplace/
+- https://azuremarketplace.microsoft.com/
+- https://composio.dev/toolkits/cloudian
+- https://monid.ai/tools/cloudian
+- https://n8n.io/integrations/cloudian/
+- https://zapier.com/apps/cloudian/integrations
+summary: null
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=8dbc4535-67eb-4127-93c7-b6cf1d9bdd4a
+  listing_count: 2
+  apps:
+  - Cloudian HyperStore for AWS Hybrid Edge
+  - Cloudian HyperStore for AWS Outposts Servers
+  seller_name: Cloudian
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-19'
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=cloudian
+  listing_count: 1
+  apps:
+  - Cloudian HyperCloud
+  seller_name: cloudian
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-19'
+templates: []
