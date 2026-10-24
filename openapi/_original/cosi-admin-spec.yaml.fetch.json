@@ -1,0 +1,12 @@
+{
+ "url": "https://raw.githubusercontent.com/cloudian/cloudian-cosi-driver/development/pkg/clients/admin/api/spec.yaml",
+ "requested_url": "https://raw.githubusercontent.com/cloudian/cloudian-cosi-driver/development/pkg/clients/admin/api/spec.yaml",
+ "status": 200,
+ "content_type": "text/plain; charset=utf-8",
+ "bytes": 3610,
+ "sha256": "ef180fb64d2e759431e869f7c1715138780a5f3ae4fa701056cac031b1340268",
+ "fetched_at": "2026-10-19",
+ "fetched_by": "APIEvangelist-Harvest/1.0 (+https://apievangelist.com)",
+ "match": "byte-identical",
+ "note": "Re-fetched from the provider by verify-openapi-sources.py; the archived file is byte-identical to what the provider serves."
+}
